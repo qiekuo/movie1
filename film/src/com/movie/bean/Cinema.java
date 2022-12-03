@@ -8,7 +8,7 @@ import java.util.List;
 public class Cinema {
 	private long cinema_id;
 	private String cinema_name;    //影院名称
-	private String cinema_address; //影院地址
+	private String cinema_address; //影院的地址
 	private List<Hall> hallList;   //所有的放映厅集合
 	
 	public long getCinema_id() {
